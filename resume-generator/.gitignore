@@ -1,6 +1,3 @@
 # Node.js / Next.js
 node_modules/
 
-# FastAPI / Python
-__pycache__/
-
