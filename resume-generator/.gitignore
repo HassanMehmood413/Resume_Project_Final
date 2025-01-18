@@ -1,13 +1,6 @@
 # Node.js / Next.js
 node_modules/
-.next/
 
 # FastAPI / Python
 __pycache__/
-
-# Virtual Environment
-venv/
-env/
-.venv/
-.env/
 
