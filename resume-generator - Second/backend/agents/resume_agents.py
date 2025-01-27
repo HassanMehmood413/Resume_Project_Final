@@ -37,11 +37,11 @@ class DataCollectorAgent:
         }
 
 class ContentEnhancementAgent:
-    """Enhances content using Serper API for professional writing"""
-    def __init__(self, serper_api_key: str):
-        self.api_key = serper_api_key
+    """Enhances content using api for professional writing"""
+    def __init__(self, key: str):
+        self.api_key = key
         self.headers = {
-            'X-API-KEY': serper_api_key,
+            'X': ,
             'Content-Type': 'application/json'
         }
 
@@ -129,7 +129,7 @@ class ResumeWorkflow:
     """Coordinates the agents and manages the resume generation workflow"""
     def __init__(self, github_token: str, serper_api_key: str, template_path: str):
         self.github_token = github_token
-        self.serper_api_key = serper_api_key
+        self.key = key
         self.template_path = template_path
 
     def escape_latex(self, text: str) -> str:
